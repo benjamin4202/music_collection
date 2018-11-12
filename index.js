@@ -1,3 +1,10 @@
+/**
+ * 
+ * Music Collection Program
+ * Author: Benjamin Pruitt
+ * 
+ */
+
 var user_input = process.stdin,
     collection = [];
 
@@ -39,7 +46,7 @@ class MusicCollection {
         }
         
         console.log(returnedString);
-    }
+    };
 
     // Function to change the output to title case
     toTitleCase(str) {
@@ -47,7 +54,7 @@ class MusicCollection {
             return txt.charAt(0).toUpperCase() 
                    + txt.substr(1).toLowerCase();
         });
-    }
+    };
 
     // Play a song from the collection
     play(data) {   
@@ -69,7 +76,7 @@ class MusicCollection {
         } 
 
         console.log(playString);
-    }
+    };
     // Output all items in the collection
     showAll() {
 
@@ -93,7 +100,7 @@ class MusicCollection {
         }
 
         console.log("\n");
-    }
+    };
     // Output all items from the specified artist
     showAllBy(data) {
 
@@ -115,8 +122,7 @@ class MusicCollection {
         });
 
         console.log("\n");
-    }
-
+    };
     // Show all items that are unplayed
     showUnplayed() {
 
@@ -132,8 +138,7 @@ class MusicCollection {
         });
 
         console.log("\n");
-    }
-
+    };
     // Show all unplayed albums by the specified artist
     showUnplayedBy(data) {
 
@@ -149,7 +154,7 @@ class MusicCollection {
         });
 
         console.log("\n");
-    }
+    };
 }
 
 // Start new music collection

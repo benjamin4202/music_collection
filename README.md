@@ -2,7 +2,7 @@
 
 ###Running the Script
 
-- Make sure you have Node.js installed on your machine (link)
+- Make sure you have Node.js installed on your machine ([download](https://nodejs.org/en/))
 - Navigate to the folder you have the script in and run this command:
 
 

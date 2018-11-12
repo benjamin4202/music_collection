@@ -42,7 +42,7 @@ class MusicCollection {
                              '\" by ' + this.toTitleCase(item[3]) + 
                              '\n';
         }else{
-            returnedString = "This album is already in your library."
+            returnedString = "\nThis album is already in your library.\n"
         }
         
         console.log(returnedString);

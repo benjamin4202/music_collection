@@ -1,6 +1,6 @@
 # Music Collection
 
-###Running the Script
+### Running the Script
 
 - Make sure you have Node.js installed on your machine ([download](https://nodejs.org/en/))
 - Navigate to the folder you have the script in and run this command:
@@ -8,7 +8,7 @@
 
 ```node index.js```
 
-###Commands
+### Commands
 
 - **add:** add "Album Name" "Artist Name" (adds a new album to the collection)
 - **play:** play "Album Name" (plays the album with the provided album name)
